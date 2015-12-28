@@ -10,5 +10,14 @@
             "name": "mnabialek",
             "email": "gitre@nabialek.org"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mnabialek\\LaravelMultiDomain\\": "src/"
+        }
+    },
+    "suggest": {
+        "mnabialek/laravel-multi-config": "Allows using multiple config/environments in Laravel application"
+    },    
+    "minimum-stability": "dev"    
 }
